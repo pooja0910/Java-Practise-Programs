@@ -14,9 +14,9 @@ class day3$3{
                 String am12="00";
                 am12+=":"+a[1]+":"+a[2].charAt(0)+a[2].charAt(1);
                 System.out.println(am12);
-            }
+            }else{
             System.out.println(a[0]+":"+a[1]+":"+a[2].charAt(0)+a[2].charAt(1));
-
+            }
         }
         else {
             //* if in pm then extract the hours from a[0] and add 12 into that if exact 12 write as it is
