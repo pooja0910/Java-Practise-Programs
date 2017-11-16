@@ -4,7 +4,7 @@ class day3$1{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the numbers in array");
-        int n=sc.nextInt();
+        int n=5;
         long a[]=new long[5];
         int sumofnumbers=0;
         long maxnum=a[0];
